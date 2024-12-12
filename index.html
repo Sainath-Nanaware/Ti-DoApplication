@@ -13,11 +13,11 @@
     <div class="main">
         <div class="to-do-container">
             <div class="input-todo">
-                <input type="text" placeholder="Enter ToDo">
-                <button>Add</button>
+                <input type="text" placeholder="Enter ToDo" id="todoInput">
+                <button onclick="addTodo()">Add</button>
             </div>
-            <div class="todo-lists">
-                <div class="todo">
+            <div class="todo-lists" id="parent">
+                <!-- <div class="todo">
                     <p>this my 1 st list</p>
                     <button>Remove</button>
                 </div> 
@@ -28,9 +28,10 @@
                 <div class="todo">
                     <p>this my 1 st list</p>
                     <button>Remove</button>
-                </div> 
+                </div>  -->
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

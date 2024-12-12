@@ -54,6 +54,7 @@ body{
 .input-todo button{
     background-color: rgb(51, 188, 51);
     border: none;
+    color: white;
     border-radius: 5px;
     padding : 12px 30px;
 }
